@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(pic2.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+.h{
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background: 	#dce7f9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-right: 4%;
+}
+
+.icon {
+    padding-left: 2%;
+    font-size: 25px;
+    color: #1C1C1BFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a{
+    font-size: 22px;
+    color: #1C1C1BFF;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: 	#5aa17f;
+    border-radius: 30%;
+    border: 4px;
+    border-color: blue;
+    
+}
+
+.navbar2 a{
+    font-size: 22px;
+    color: #1C1C1BFF;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.navbar2 a:hover,
+.navbar2 a.active {
+    color: 	#5aa17f;
+    border-radius: 30%;
+    border: 4px;
+    border-color: blue;
+    
+}
+
+.mainn {
+    margin-top: 15%;
+    text-align: center;
+    justify-content: center;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+    background-color: black;
+    background-size: 10%;
+    margin-bottom: 2%;
+}
+
+.metafrontend{
+    display:inline-flex;
+    background-color:	#ebeff5;
+    border: 3px solid;
+    border-radius: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(2, 39, 62);
+    background-color: rgb(210, 234, 249);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.metabackend{
+    display:inline-flex;
+    background-color:	#ebeff5;
+    border: 3px solid;
+    border-radius: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(2, 39, 62);
+    background-color: rgb(210, 234, 249);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.adobedesign{
+    display:inline-flex;
+    background-color:	#ebeff5;
+    border: 3px solid;
+    border-radius: 2px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(2, 39, 62);
+    background-color: rgb(210, 234, 249);
+    justify-content: center;
+    align-items: center;
+}
