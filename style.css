@@ -1,5 +1,7 @@
 *{
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     padding: 0;
     text-decoration: none;
     border: none;
@@ -11,26 +13,38 @@ body{
     background-color: black;
 }
 
-header{
-    padding: 20px;
+header {
+    background: #0e0d0d;
+    padding: 10px 0;
+}
+
+.options {
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    background-color: rgba(39, 38, 38, 0.5);
-    font-size: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.options a{
-    margin: 4rem;
-    color: #70f980	;
-    border-bottom: 3px solid #0d4714	;
+.nav1 ul {   
+    list-style: none;
+    display: flex;
 }
 
-.options a:hover{
-    transition-duration: 0.15s;
-    color: #4dc9eb;
-    border-bottom: 3px solid #4dc9eb;
+.nav1 ul a{
+    list-style: none;
+    display: flex;
+    margin: 0 15px;
+    color: lightgreen;
+    font-size: 16px;
+    transition: color 0.3s;
 }
+
+.nav1 ul a:hover {
+    color: lightblue;
+}
+
 
 .image{
     display: flex;
@@ -39,6 +53,7 @@ header{
 }
 
 .image img{
+    display: flex;
     position: relative;
     top: 3rem;
     width: 22vw;
@@ -48,26 +63,28 @@ header{
 }
 
 .middlearea{
-    padding-top: 6%;
+    display: flex;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
     color: #c1f6e5	;
 }
 
 .intro{
-    display: flex;
+    display:block;
     justify-content: center;
+    align-items: center;
     color: #c1f6e5;
-    padding-bottom: 13%;
+    padding-bottom: 4rem;
 }
 
 .text-animation{
     border-right: 2px solid white;
-    width: 39.5%;
+    width: 21rem;
     white-space: nowrap;
     overflow: hidden;
     animation: 
-    typing 3s steps(33),
+    typing 3.5s steps(33),
     cursor .4s step-end infinite alternate;
 }
 
@@ -79,7 +96,7 @@ header{
 }
 
 .WorkExperience{
-    padding: 10%;
+    padding: 4rem;
     background-color: rgb(18, 18, 18);
     color: #c1f6e5	;
 }
@@ -91,19 +108,79 @@ header{
 
 .firstjob{
     color:lightskyblue;
-    padding-top: 10%;
+    padding-top: 4%;
     display: flex;
     justify-content: center;
 }
 .secondjob{
     color:lightskyblue;
-    padding-top: 10%;
+    padding-top: 4%;
     display: flex;
     justify-content: center;
 }
 .thirdjob{   
     color:lightskyblue;
-    padding-top: 10%;
+    padding-top: 4%;
     display: flex;
     justify-content: center;
+}
+
+.ExtraExperience{
+    padding: 4rem;
+    background-color: rgb(18, 18, 18);
+    color: #c1f6e5	;
+}
+
+.Extratitle{
+    display: flex;
+    justify-content: center;
+}
+
+.firstExtra{
+    color:lightskyblue;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+.secondExtra{
+    color:lightskyblue;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+.thirdExtra{   
+    color:lightskyblue;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.skillbody{
+    color: #4a4a4a;
+    padding-bottom: 4rem;
+}
+
+.fa-js{
+    font-size: 80px;
+    padding-right: 1%;
+}
+
+.fa-html5{
+    font-size: 80px;
+    padding-right: 1%;
+}
+
+.fa-css3-alt{
+    font-size: 80px;   
+    padding-right: 1%;
+}
+
+.fa-java{
+    font-size: 80px;
+    padding-right: 1%;
+}
+
+.fa-python{
+    font-size: 80px;
+    padding-right: 1%;
 }
