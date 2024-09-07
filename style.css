@@ -160,6 +160,16 @@ header {
     padding-bottom: 4rem;
 }
 
+.fa-react{
+    font-size: 80px;
+    padding-right: 1%;
+}
+
+.fa-node{
+    font-size: 80px;
+    padding-right: 1%;
+}
+
 .fa-js{
     font-size: 80px;
     padding-right: 1%;
