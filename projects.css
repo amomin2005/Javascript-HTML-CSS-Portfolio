@@ -68,8 +68,25 @@ header{
     margin-bottom: 2%;
 }
 
+.wellsfargocertificates{
+    padding: 4rem;
+    background-color: rgb(18, 18, 18);
+}
+
+.WellsFargoCertification{
+    display:inline-flex;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(143, 212, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
 .secondcertificates{
-    padding: 6rem;
+    padding: 4rem;
     background-color: rgb(18, 18, 18);
 }
 
@@ -83,4 +100,14 @@ header{
     justify-content: center;
     align-items: center;
     margin-bottom: 2%;
+}
+
+.projects{
+    color: red;
+}
+.weather{
+    color: red;
+}
+.react{
+    color: red;
 }

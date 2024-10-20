@@ -67,14 +67,14 @@ header {
     padding-top: 4rem;
     display: flex;
     justify-content: center;
-    color: #c1f6e5	;
+    color: lightskyblue	;
 }
 
 .intro{
     display:block;
     justify-content: center;
     align-items: center;
-    color: #c1f6e5;
+    color: lightskyblue;
     padding-bottom: 4rem;
 }
 
@@ -150,6 +150,20 @@ header {
 }
 .thirdExtra{   
     color:lightskyblue;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.wellsfargo{   
+    color:lightskyblue;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.skyscanner{   
+    color: lightskyblue;
     padding-top: 4%;
     display: flex;
     justify-content: center;
