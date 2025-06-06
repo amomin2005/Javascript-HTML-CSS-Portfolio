@@ -1,0 +1,113 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+
+.certi{
+    text-align: center;
+    color: aqua;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background: #0e0d0d;
+    padding: 10px 0;
+}
+
+.projheader{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.check ul {   
+    list-style: none;
+    display: flex;
+}
+
+.check ul a{
+    list-style: none;
+    display: flex;
+    margin: 0 15px;
+    color: lightgreen;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.check ul a:hover {
+    color: lightblue;
+}
+
+.firstcertificates{
+    padding: 4rem;
+    background-color: rgb(18, 18, 18);
+}
+
+.metafrontend{
+    display:inline-flex;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(143, 212, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.wellsfargocertificates{
+    padding: 4rem;
+    background-color: rgb(18, 18, 18);
+}
+
+.WellsFargoCertification{
+    display:inline-flex;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(143, 212, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.secondcertificates{
+    padding: 4rem;
+    background-color: rgb(18, 18, 18);
+}
+
+.metabackend{
+    display:inline-flex;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: rgb(143, 212, 255);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.projects{
+    color: red;
+}
+.weather{
+    color: red;
+}
+.react{
+    color: red;
+}
